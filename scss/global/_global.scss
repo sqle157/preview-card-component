@@ -3,12 +3,15 @@
 h1 {
 	font-size: $fs-40;
 	line-height: 1;
+	color: $clr-neutral-100;
 	font-family: $ff-secondary;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 p {
+	color: $clr-neutral-50;
+	font-weight: 400;
 	max-width: 30ch;
 }
 
@@ -20,8 +23,6 @@ body {
 	display: grid;
 	place-items: center;
 	font-family: $ff-primary;
-	font-weight: 400;
 	font-size: $fs-15;
-	background-color: $clr-neutral-50;
-	color: $clr-neutral-100;
+	background-color: $clr-neutral-100;
 }

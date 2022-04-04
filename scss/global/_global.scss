@@ -1,0 +1,27 @@
+@use '../abstracts' as *;
+
+h1 {
+	font-size: $fs-40;
+	line-height: 1;
+	font-family: $ff-secondary;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+p {
+	max-width: 30ch;
+}
+
+main {
+	width: 100%;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	font-family: $ff-primary;
+	font-weight: 400;
+	font-size: $fs-15;
+	background-color: $clr-neutral-50;
+	color: $clr-neutral-100;
+}
